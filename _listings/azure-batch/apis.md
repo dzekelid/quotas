@@ -8,27 +8,27 @@ description: Batch processing began with mainframe computers and punch cards. To
   disease. Previously, few people had access to the computing power for these scenarios.
   With Azure Batch, that power is available to you when you need it, without any capital
   investment.
-image: ""
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-batch-100x-scale.png
 x-kinRank: "10"
 x-alexaRank: ""
 tags:
 - Stack Network
 - Microsoft
 - Batch
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/quotas/master/_listings/azure-batch/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-batch/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Batch API
   description: Batch processing began with mainframe computers and punch cards
-  image: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-batch-100x-scale.png
   humanURL: ""
   baseURL: ://management.azure.com//
   tags: Quotas
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/quotas/master/_listings/azure-batch/subscriptions-subscriptionid-providers-microsoft-batch-locations-locationname-quotas-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-batch/subscriptions-subscriptionid-providers-microsoft-batch-locations-locationname-quotas-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/batch/
