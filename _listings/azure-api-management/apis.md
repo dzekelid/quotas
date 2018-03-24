@@ -26,7 +26,7 @@ apis:
   tags: Quotas
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-quotaperiodkey-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
