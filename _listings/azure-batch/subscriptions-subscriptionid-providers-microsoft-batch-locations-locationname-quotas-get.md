@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: BatchManagement
+  title: Azure Batch API Location Get Quotas
   version: 1.0.0
+  description: Gets the Batch service quotas for the specified subscription at the
+    given location.
 host: management.azure.com
 basePath: /
 schemes:
