@@ -27,7 +27,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-quotaperiodkey-patch.md
+- name: Azure API Management API QuotaByCounterKeys ListByService
+  description: Lists a collection of current quota counter periods associated with
+    the counter-key configured in the policy on the specified service instance. The
+    api does not support paging yet.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/api-management/
+  baseURL: http:://management.azure.com//
+  tags: Quotas
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/api-management/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/api-management/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/api-management/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/api-management/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
 - type: x-pricing
