@@ -27,18 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-quotaperiodkey-patch.md
-- name: Azure API Management API QuotaByPeriodKeys Get
-  description: Gets the value of the quota counter associated with the counter-key
-    in the policy for the specific period in service instance.
+- name: Azure API Management API QuotaByPeriodKeys Update
+  description: Updates an existing quota counter value in the specified service instance.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
   humanURL: https://azure.microsoft.com/en-us/services/api-management/
   baseURL: http:://management.azure.com//
   tags: Quotas
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-quotaperiodkey-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-quotaperiodkey-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-quotaperiodkey-patch.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
