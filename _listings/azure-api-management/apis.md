@@ -27,17 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-quotaperiodkey-patch.md
-- name: Azure API Management API QuotaByCounterKeys Update
-  description: Updates all the quota counter values specified with the existing quota
-    counter key to a value in the specified service instance. This should be used
-    for reset of the quota counter values.
+- name: Azure API Management API QuotaByPeriodKeys Get
+  description: Gets the value of the quota counter associated with the counter-key
+    in the policy for the specific period in service instance.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
   humanURL: https://azure.microsoft.com/en-us/services/api-management/
   baseURL: http:://management.azure.com//
   tags: Quotas
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-quotaperiodkey-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/quotas/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-quotas-quotacounterkey-quotaperiodkey-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
